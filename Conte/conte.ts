@@ -1,486 +1,348 @@
 import { typeDataConte } from "./typeDataConte"
-const DataConte : typeDataConte [] =  [
+
+
+const dataConteta: typeDataConte[] = 
+[
   {
     id: 1,
-    nom: "L'araignée rusée (Abé)",
-    origine: "Peuple Abé",
-    description: "Une araignée rusée use de ruse pour tromper ses voisins; finit par apprendre humilité. Ce conte populaire du Peuple Abé met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
+    groupe_ethnique: "Akan",
+    sous_groupe: "Baoulé",
+    contes: {
+      titre: "La légende d’Abla Pokou",
+      conte: "Reine fuyant l’Ashanti, Pokou sacrifie son fils pour apaiser l’esprit de la rivière et permettre au peuple de traverser. Après le passage, elle dit « Ba-ouli » (« l’enfant est mort »), d’où le nom Baoulé.",
+      personnages: ["Abla Pokou", "le peuple baoulé", "les esprits de la rivière"],
+      morale: "Le sacrifice pour le salut collectif et la naissance d’un peuple.",
+      langue_origine: "Baoulé (akan)",
+      region: "Centre de la Côte d’Ivoire",
+      occasion: ["Veillées de contes", "Fêtes commémoratives"],
+      themes: ["Origines", "Sacrifice", "Migration"],
+      images: ["https://upload.wikimedia.org/wikipedia/commons/8/80/Pokou_fresco_example.jpg"],
+      audio: [],
+      video: ["https://www.youtube.com/watch?v=ud3f8C8VfYo"]
+    },
+    sources: [
+      "https://fr.wikipedia.org/wiki/Abla_Pokou",
+      "https://scholarblogs.emory.edu/epi/files/2022/02/Tadjo-Reine-Pokou-Laterite.pdf"
+    ]
   },
+
   {
     id: 2,
-    nom: "Le crocodile et le pêcheur (Abidji)",
-    origine: "Peuple Abidji",
-    description: "Un pêcheur transgresse un tabu et rencontre un crocodile esprit; il rétablit l'équilibre par respect des ancêtres. Ce conte populaire du Peuple Abidji met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
+    groupe_ethnique: "Sénoufo",
+    sous_groupe: "Sénoufo (Korhogo)",
+    contes: {
+      titre: "Ta’nourou (le conte de l’écoute)",
+      conte: "Histoire d’un jeune qui apprend que l’écoute attentive des anciens permet d’éviter les conflits et d’être admis au Poro.",
+      personnages: ["Ta’nourou", "vieux sages", "initiés du Poro"],
+      morale: "Écouter est une vertu sociale qui garantit l’harmonie.",
+      langue_origine: "Sénoufo",
+      region: "Nord (Korhogo et environs)",
+      occasion: ["Veillées", "Périodes d’initiation"],
+      themes: ["Initiation", "Respect des aînés", "Sagesse"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://djiboul.org/wp-content/uploads/2023/03/Tire-a-part_24.pdf",
+      "https://excerpts.numilog.com/books/9782307507468.pdf"
+    ]
   },
+
   {
     id: 3,
-    nom: "Le tambour magique (Abron)",
-    origine: "Peuple Abron",
-    description: "Un tambour protège le village; seuls les initiés savent son chant et ses règles. Ce conte populaire du Peuple Abron met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
+    groupe_ethnique: "Mande",
+    sous_groupe: "Dan (Yacouba)",
+    contes: {
+      titre: "L’araignée cupide",
+      conte: "Dans un village dan, une araignée avare trompe ses voisins jusqu’à ce que sa cupidité soit dévoilée; la communauté la punit et rétablit l’ordre.",
+      personnages: ["L’araignée", "villageois", "chef coutumier"],
+      morale: "La cupidité finit toujours par se retourner contre soi.",
+      langue_origine: "Dan",
+      region: "Ouest montagneux (Man, Danané)",
+      occasion: ["Veillées", "Éducation des enfants"],
+      themes: ["Avarice", "Justice communautaire", "Ruse"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://dicames.online/jspui/bitstream/20.500.12177/2603/1/CS_07209.pdf",
+      "https://fr.wikipedia.org/wiki/Dan_(peuple)"
+    ]
   },
+
   {
     id: 4,
-    nom: "La fille du masque (Adjoukrou)",
-    origine: "Peuple Adjoukrou",
-    description: "Une jeune fille inspire la création d'un masque qui devient symbole communautaire. Ce conte populaire du Peuple Adjoukrou met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
+    groupe_ethnique: "Mande",
+    sous_groupe: "Guro (Gourou)",
+    contes: {
+      titre: "Zamble, Gu et Zuali",
+      conte: "Récit des esprits Zamble (créature mythique), de sa belle épouse Gu et de son frère Zuali. Ils protègent le village, arbitrent les conflits et rétablissent l’équilibre entre brousse et cité.",
+      personnages: ["Zamble", "Gu", "Zuali", "devins", "familles gardiennes"],
+      morale: "L’équilibre social naît de la médiation entre mondes visibles et invisibles.",
+      langue_origine: "Guro",
+      region: "Centre-Ouest",
+      occasion: ["Funérailles de dignitaires", "Grandes fêtes"],
+      themes: ["Protection", "Médiation", "Cosmologie"],
+      images: ["https://images.metmuseum.org/CRDImages/ao/original/DP213642.jpg"],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://www.metmuseum.org/art/collection/search/312308",
+      "https://journals.openedition.org/ethnoecologie/6216",
+      "https://quod.lib.umich.edu/m/musart/x-2002-sl-2.348/*"
+    ]
   },
+
   {
     id: 5,
-    nom: "Le chasseur initié (Agni)",
-    origine: "Peuple Agni",
-    description: "Un jeune chasseur passe rites et obtient talismans qui le lient à la forêt. Ce conte populaire du Peuple Agni met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
+    groupe_ethnique: "Krou",
+    sous_groupe: "Bété",
+    contes: {
+      titre: "Un conte bété et son narrateur (tradition orale)",
+      conte: "Conte animalier où un petit rongeur rusé déjoue la force de prédateurs; l’article met en scène la performance du conteur et le rôle du public.",
+      personnages: ["Rongeur rusé", "prédateurs", "conteur", "auditoire"],
+      morale: "La parole performée fonde la morale et la cohésion sociale.",
+      langue_origine: "Bété",
+      region: "Centre-Ouest (Gagnoa, Daloa)",
+      occasion: ["Veillées", "Cérémonies familiales"],
+      themes: ["Ruse", "Performance du conte", "Cohésion sociale"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://www.persee.fr/doc/gradh_0764-8928_1986_num_1_1_974",
+      "https://www.persee.fr/doc/cea_0008-0055_1968_num_8_30_3349"
+    ]
   },
+
   {
     id: 6,
-    nom: "L'oiseau d'abondance (Aké)",
-    origine: "Peuple Aké",
-    description: "Un oiseau merveilleux apporte savoirs agricoles et abondance au village. Ce conte populaire du Peuple Aké met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
+    groupe_ethnique: "Krou",
+    sous_groupe: "Wê (Guéré/Wobé)",
+    contes: {
+      titre: "Le Gba (mythe Wê)",
+      conte: "Récits mythiques autour du Gba, forces surnaturelles ordonnant la vie sociale; des héros affrontent génies et hommes-panthères pour restaurer l’ordre.",
+      personnages: ["Héros Wê", "Génies du Gba", "hommes-panthères"],
+      morale: "La bravoure et le respect des interdits préservent la communauté.",
+      langue_origine: "Wê (Guéré/Wobé)",
+      region: "Ouest (forêt Wê)",
+      occasion: ["Veillées", "Initiations"],
+      themes: ["Interdits", "Bravoure", "Surnaturel"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://www.wobebli.net/contes/contes.htm",
+      "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/pleins_textes_2/memoires/05200.pdf"
+    ]
   },
+
   {
     id: 7,
-    nom: "Le voleur de lune (Alladian)",
-    origine: "Peuple Alladian",
-    description: "La lune est dérobée; la communauté s'organise pour la récupérer et rétablir l'ordre cosmique. Ce conte populaire du Peuple Alladian met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
+    groupe_ethnique: "Akan",
+    sous_groupe: "Agni (Indénié/N’Dénian)",
+    contes: {
+      titre: "Anansi et la jarre de sagesse",
+      conte: "L’araignée Anansi tente de cacher toute la sagesse dans une jarre; déjouée par son fils, il apprend que la sagesse se partage.",
+      personnages: ["Anansi", "son fils", "villageois"],
+      morale: "La sagesse est collective et doit circuler.",
+      langue_origine: "Agni (akan)",
+      region: "Est (Abengourou et alentours)",
+      occasion: ["Veillées", "Écoles communautaires"],
+      themes: ["Sagesse", "Partage", "Ruse"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://fr.wikipedia.org/wiki/Agnis",
+      "https://www.persee.fr/doc/ahess_0395-2649_1970_num_25_6_422310"
+    ]
   },
+
   {
     id: 8,
-    nom: "La marmite inépuisable (Akyé)",
-    origine: "Peuple Akyé",
-    description: "Une marmite nourricière met à l'épreuve la générosité d'un village. Ce conte populaire du Peuple Akyé met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
+    groupe_ethnique: "Akan",
+    sous_groupe: "Abron (Brong, Gyaman)",
+    contes: {
+      titre: "Le tambour parleur de Gyaman",
+      conte: "Un prince imprudent méconnaît les avertissements du tambour parleur; l’esprit protecteur du royaume l’oblige à réparer ses torts.",
+      personnages: ["Prince de Gyaman", "tambour parleur", "anciens"],
+      morale: "Mépriser la parole des anciens mène au désordre.",
+      langue_origine: "Abron/Brong (akan)",
+      region: "Nord-Est (Bondoukou, Tanda, Transua)",
+      occasion: ["Fêtes royales", "Veillées"],
+      themes: ["Pouvoir", "Tradition", "Avertissement"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://fr.wikipedia.org/wiki/Abron_(peuple)",
+      "https://journals.openedition.org/com/878"
+    ]
   },
+
   {
     id: 9,
-    nom: "La source guérisseuse (Anufo)",
-    origine: "Peuple Anufo",
-    description: "Une source découverte guérit et institue des rites de protection. Ce conte populaire du Peuple Anufo met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
+    groupe_ethnique: "Lagunaire (Akan)",
+    sous_groupe: "Ébrié (Tchaman)",
+    contes: {
+      titre: "Otchogbi et les génies de la lagune",
+      conte: "Sous la conduite d’Otchogbi, les Tchaman négocient avec les génies de la lagune pour s’installer en sécurité; les offrandes scellent l’alliance.",
+      personnages: ["Otchogbi", "génies de la lagune", "anciens"],
+      morale: "Vivre avec le milieu suppose pacte et respect des esprits.",
+      langue_origine: "Atchan (ébrié)",
+      region: "Sud (Lagune Ébrié, Abidjan)",
+      occasion: ["Cérémonies lagunaires", "Veillées"],
+      themes: ["Alliance avec la nature", "Migration", "Rituel"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://www.africamuseum.be/docs/research/publications/rmca/online/tchaman.pdf",
+      "https://fr.wikipedia.org/wiki/%C3%89bri%C3%A9s"
+    ]
   },
+
   {
     id: 10,
-    nom: "L'escargot rusé (Attié)",
-    origine: "Peuple Attié",
-    description: "L'escargot gagne par la ruse une victoire devant un adversaire plus fort. Ce conte populaire du Peuple Attié met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
+    groupe_ethnique: "Kwa (Lagunaire)",
+    sous_groupe: "Attié / Akyé",
+    contes: {
+      titre: "Anoumbé, ouverture du conte en pays Akyé",
+      conte: "Le conte s’ouvre par « Mon mémé quité » — « aho ! »; histoire d’un chasseur qui apprend que la parole donnée aux esprits du bois ne se rompt pas.",
+      personnages: ["Chasseur", "esprit du bois", "villageois"],
+      morale: "Tenir sa parole protège la communauté.",
+      langue_origine: "Attié (akyé)",
+      region: "Sud-Est (Adzopé, Alépé)",
+      occasion: ["Veillées de contes"],
+      themes: ["Parole donnée", "Esprits de la forêt", "Rituel d’ouverture"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://www.lemondedhugo.com/histoire-anoumbe-conte-en-pays-akye.php",
+      "https://www.persee.fr/doc/cea_0008-0055_1966_num_6_21_3059"
+    ]
   },
+
   {
     id: 11,
-    nom: "L'araignée rusée (Avikam)",
-    origine: "Peuple Avikam",
-    description: "Une araignée rusée use de ruse pour tromper voisins; finit par apprendre humilité. Ce conte populaire du Peuple Avikam met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
+    groupe_ethnique: "Gur (Voltaïques)",
+    sous_groupe: "Lobi",
+    contes: {
+      titre: "Le pacte des ancêtres lobi",
+      conte: "Un chef rompt un interdit et attire la malchance; après sacrifices et réparation, l’ordre cosmique est restauré.",
+      personnages: ["Chef lobi", "ancêtres", "devin"],
+      morale: "Transgresser un interdit rompt l’ordre, la réparation est nécessaire.",
+      langue_origine: "Lobi",
+      region: "Nord-Est (frontière Burkina/Ghana)",
+      occasion: ["Cérémonies de réparation", "Veillées"],
+      themes: ["Interdits", "Ancêtres", "Réparation"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://excerpts.numilog.com/books/9782905259417.pdf",
+      "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/pleins_textes_5/pt5/travaux_d/10005.pdf"
+    ]
   },
+
   {
     id: 12,
-    nom: "Le crocodile et le pêcheur (Baoulé)",
-    origine: "Peuple Baoulé",
-    description: "Un pêcheur transgresse un tabu et rencontre un crocodile esprit; il rétablit l'équilibre par respect des ancêtres. Ce conte populaire du Peuple Baoulé met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
+    groupe_ethnique: "Gur (Voltaïques)",
+    sous_groupe: "Koulango",
+    contes: {
+      titre: "Le serment du chasseur Koulango",
+      conte: "Un chasseur promet de partager son gibier avec l’esprit de la brousse; en rompant le serment, il subit des malheurs et apprend l’humilité.",
+      personnages: ["Chasseur", "esprit de la brousse", "anciens"],
+      morale: "Les serments sacrés lient l’homme au monde invisible.",
+      langue_origine: "Koulango",
+      region: "Nord-Est (Bondoukou, Bouna)",
+      occasion: ["Veillées", "Chasses rituelles"],
+      themes: ["Serment", "Brousse", "Humilité"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://www.persee.fr/doc/caoum_0373-5834_1962_num_15_57_2233"
+    ]
   },
+
   {
     id: 13,
-    nom: "Le tambour magique (Djimini)",
-    origine: "Peuple Baoulé Djimini",
-    description: "Un tambour protège le village; seuls les initiés savent son chant et ses règles. Ce conte populaire du Peuple Baoulé Djimini met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
+    groupe_ethnique: "Krou",
+    sous_groupe: "Dida",
+    contes: {
+      titre: "L’esprit du marigot d’Abohiri",
+      conte: "Une jeune fille brave l’interdit du marigot sacré; grâce à sa sincérité, l’esprit l’épargne et le village renforce les règles d’accès au marigot.",
+      personnages: ["Jeune fille", "esprit du marigot", "anciens"],
+      morale: "Les ressources naturelles sont sacrées et se respectent.",
+      langue_origine: "Dida",
+      region: "Centre-Sud (Divo, Lakota)",
+      occasion: ["Veillées", "Rites liés à l’eau"],
+      themes: ["Interdits écologiques", "Sacré", "Communauté"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://www.persee.fr/doc/revss_1623-6572_2010_num_43_1_1291",
+      "https://www.revues-ufhb-ci.org/fichiers/FICHIR_ARTICLE_2414.pdf"
+    ]
   },
+
   {
     id: 14,
-    nom: "La fille du masque (Bakwe)",
-    origine: "Peuple Bakwe",
-    description: "Une jeune fille inspire la création d'un masque qui devient symbole communautaire. Ce conte populaire du Peuple Bakwe met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
+    groupe_ethnique: "Mande",
+    sous_groupe: "Dioula/Malinké (Mandé du Nord)",
+    contes: {
+      titre: "Le griot et le chasseur",
+      conte: "Un chasseur glorieux refuse de récompenser le griot; la communauté lui rappelle que la mémoire chantée donne sens à la bravoure.",
+      personnages: ["Chasseur", "griot", "village"],
+      morale: "La parole du griot pérennise les faits et mérite respect.",
+      langue_origine: "Dioula/Malinké",
+      region: "Nord (Katiola, Ferkessédougou)",
+      occasion: ["Veillées", "Cérémonies de chasse"],
+      themes: ["Mémoire", "Reconnaissance", "Honneur"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://www.afjolih.org/wp-content/uploads/2023/10/10-Diabate-Nohoua.pdf"
+    ]
   },
+
   {
     id: 15,
-    nom: "Le chasseur initié (Bakwé)",
-    origine: "Peuple Bakwé",
-    description: "Un jeune chasseur passe rites et obtient talismans qui le lient à la forêt. Ce conte populaire du Peuple Bakwé met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 16,
-    nom: "L'oiseau d'abondance (Bété)",
-    origine: "Peuple Bété",
-    description: "Un oiseau merveilleux apporte savoirs agricoles et abondance au village. Ce conte populaire du Peuple Bété met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 17,
-    nom: "Le voleur de lune (Bhété)",
-    origine: "Peuple Bhété",
-    description: "La lune est dérobée; la communauté s'organise pour la récupérer et rétablir l'ordre cosmique. Ce conte populaire du Peuple Bhété met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 18,
-    nom: "La marmite inépuisable (Bonon)",
-    origine: "Peuple Bonon",
-    description: "Une marmite nourricière met à l'épreuve la générosité d'un village. Ce conte populaire du Peuple Bonon met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 19,
-    nom: "La source guérisseuse (Dida)",
-    origine: "Peuple Dida",
-    description: "Une source découverte guérit et institue des rites de protection. Ce conte populaire du Peuple Dida met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 20,
-    nom: "L'escargot rusé (Djimini)",
-    origine: "Peuple Djimini",
-    description: "L'escargot gagne par la ruse une victoire devant un adversaire plus fort. Ce conte populaire du Peuple Djimini met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 21,
-    nom: "L'araignée rusée (Djimini-Koufi)",
-    origine: "Peuple Djimini-Koufi",
-    description: "Une araignée rusée use de ruse pour tromper voisins; finit par apprendre humilité. Ce conte populaire du Peuple Djimini-Koufi met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 22,
-    nom: "Le crocodile et le pêcheur (Dioula)",
-    origine: "Peuple Dioula",
-    description: "Un pêcheur transgresse un tabu et rencontre un crocodile esprit; il rétablit l'équilibre par respect des ancêtres. Ce conte populaire du Peuple Dioula met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 23,
-    nom: "Le tambour magique (Ébrié)",
-    origine: "Peuple Ébrié",
-    description: "Un tambour protège le village; seuls les initiés savent son chant et ses règles. Ce conte populaire du Peuple Ébrié met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 24,
-    nom: "La fille du masque (Kowe)",
-    origine: "Peuple Ébrié Kowe",
-    description: "Une jeune fille inspire la création d'un masque qui devient symbole communautaire. Ce conte populaire du Peuple Ébrié Kowe met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 25,
-    nom: "Le chasseur initié (Ega)",
-    origine: "Peuple Ega",
-    description: "Un jeune chasseur passe rites et obtient talismans qui le lient à la forêt. Ce conte populaire du Peuple Ega met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 26,
-    nom: "L'oiseau d'abondance (Ehotilé)",
-    origine: "Peuple Ehotilé",
-    description: "Un oiseau merveilleux apporte savoirs agricoles et abondance au village. Ce conte populaire du Peuple Ehotilé met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 27,
-    nom: "Le voleur de lune (Essouma)",
-    origine: "Peuple Essouma",
-    description: "La lune est dérobée; la communauté s'organise pour la récupérer et rétablir l'ordre cosmique. Ce conte populaire du Peuple Essouma met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 28,
-    nom: "La marmite inépuisable (Falafola)",
-    origine: "Peuple Falafola",
-    description: "Une marmite nourricière met à l'épreuve la générosité d'un village. Ce conte populaire du Peuple Falafola met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 29,
-    nom: "La source guérisseuse (Fon)",
-    origine: "Peuple Fon",
-    description: "Une source découverte guérit et institue des rites de protection. Ce conte populaire du Peuple Fon met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 30,
-    nom: "L'escargot rusé (Godié)",
-    origine: "Peuple Godié",
-    description: "L'escargot gagne par la ruse une victoire devant un adversaire plus fort. Ce conte populaire du Peuple Godié met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 31,
-    nom: "L'araignée rusée (Gouro)",
-    origine: "Peuple Gouro",
-    description: "Une araignée rusée use de ruse pour tromper voisins; finit par apprendre humilité. Ce conte populaire du Peuple Gouro met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 32,
-    nom: "Le crocodile et le pêcheur (Guéré)",
-    origine: "Peuple Guéré",
-    description: "Un pêcheur transgresse un tabu et rencontre un crocodile esprit; il rétablit l'équilibre par respect des ancêtres. Ce conte populaire du Peuple Guéré met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 33,
-    nom: "Le tambour magique (Koulango)",
-    origine: "Peuple Koulango",
-    description: "Un tambour protège le village; seuls les initiés savent son chant et ses règles. Ce conte populaire du Peuple Koulango met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 34,
-    nom: "La fille du masque (Kouya)",
-    origine: "Peuple Kouya",
-    description: "Une jeune fille inspire la création d'un masque qui devient symbole communautaire. Ce conte populaire du Peuple Kouya met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 35,
-    nom: "Le chasseur initié (Krémé)",
-    origine: "Peuple Krémé",
-    description: "Un jeune chasseur passe rites et obtient talismans qui le lient à la forêt. Ce conte populaire du Peuple Krémé met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 36,
-    nom: "L'oiseau d'abondance (Krobou)",
-    origine: "Peuple Krobou",
-    description: "Un oiseau merveilleux apporte savoirs agricoles et abondance au village. Ce conte populaire du Peuple Krobou met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 37,
-    nom: "Le voleur de lune (Kroumen)",
-    origine: "Peuple Kroumen",
-    description: "La lune est dérobée; la communauté s'organise pour la récupérer et rétablir l'ordre cosmique. Ce conte populaire du Peuple Kroumen met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 38,
-    nom: "La marmite inépuisable (Lobi)",
-    origine: "Peuple Lobi",
-    description: "Une marmite nourricière met à l'épreuve la générosité d'un village. Ce conte populaire du Peuple Lobi met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 39,
-    nom: "La source guérisseuse (Mahou)",
-    origine: "Peuple Mahou",
-    description: "Une source découverte guérit et institue des rites de protection. Ce conte populaire du Peuple Mahou met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 40,
-    nom: "L'escargot rusé (Malinké)",
-    origine: "Peuple Malinké",
-    description: "L'escargot gagne par la ruse une victoire devant un adversaire plus fort. Ce conte populaire du Peuple Malinké met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 41,
-    nom: "L'araignée rusée (Manie)",
-    origine: "Peuple Manie",
-    description: "Une araignée rusée use de ruse pour tromper voisins; finit par apprendre humilité. Ce conte populaire du Peuple Manie met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 42,
-    nom: "Le crocodile et le pêcheur (Mbato)",
-    origine: "Peuple Mbato",
-    description: "Un pêcheur transgresse un tabu et rencontre un crocodile esprit; il rétablit l'équilibre par respect des ancêtres. Ce conte populaire du Peuple Mbato met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 43,
-    nom: "Le tambour magique (Mé)",
-    origine: "Peuple Mé",
-    description: "Un tambour protège le village; seuls les initiés savent son chant et ses règles. Ce conte populaire du Peuple Mé met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 44,
-    nom: "La fille du masque (Moré)",
-    origine: "Peuple Moré",
-    description: "Une jeune fille inspire la création d'un masque qui devient symbole communautaire. Ce conte populaire du Peuple Moré met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 45,
-    nom: "Le chasseur initié (M’batto)",
-    origine: "Peuple M’batto",
-    description: "Un jeune chasseur passe rites et obtient talismans qui le lient à la forêt. Ce conte populaire du Peuple M’batto met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 46,
-    nom: "L'oiseau d'abondance (M’Brou)",
-    origine: "Peuple M’Brou",
-    description: "Un oiseau merveilleux apporte savoirs agricoles et abondance au village. Ce conte populaire du Peuple M’Brou met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 47,
-    nom: "Le voleur de lune (Néyo)",
-    origine: "Peuple Néyo",
-    description: "La lune est dérobée; la communauté s'organise pour la récupérer et rétablir l'ordre cosmique. Ce conte populaire du Peuple Néyo met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 48,
-    nom: "La marmite inépuisable (N’zema)",
-    origine: "Peuple N’zema",
-    description: "Une marmite nourricière met à l'épreuve la générosité d'un village. Ce conte populaire du Peuple N’zema met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 49,
-    nom: "La source guérisseuse (Ouan)",
-    origine: "Peuple Ouan",
-    description: "Une source découverte guérit et institue des rites de protection. Ce conte populaire du Peuple Ouan met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 50,
-    nom: "L'escargot rusé (Senufo)",
-    origine: "Peuple Senufo",
-    description: "L'escargot gagne par la ruse une victoire devant un adversaire plus fort. Ce conte populaire du Peuple Senufo met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 51,
-    nom: "L'araignée rusée (Tagbana)",
-    origine: "Peuple Tagbana",
-    description: "Une araignée rusée use de ruse pour tromper voisins; finit par apprendre humilité. Ce conte populaire du Peuple Tagbana met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 52,
-    nom: "Le crocodile et le pêcheur (Tché)",
-    origine: "Peuple Tché",
-    description: "Un pêcheur transgresse un tabu et rencontre un crocodile esprit; il rétablit l'équilibre par respect des ancêtres. Ce conte populaire du Peuple Tché met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 53,
-    nom: "Le tambour magique (Toura)",
-    origine: "Peuple Toura",
-    description: "Un tambour protège le village; seuls les initiés savent son chant et ses règles. Ce conte populaire du Peuple Toura met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 54,
-    nom: "La fille du masque (Wané)",
-    origine: "Peuple Wané",
-    description: "Une jeune fille inspire la création d'un masque qui devient symbole communautaire. Ce conte populaire du Peuple Wané met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 55,
-    nom: "Le chasseur initié (We)",
-    origine: "Peuple We",
-    description: "Un jeune chasseur passe rites et obtient talismans qui le lient à la forêt. Ce conte populaire du Peuple We met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 56,
-    nom: "L'oiseau d'abondance (Wobé)",
-    origine: "Peuple Wobé",
-    description: "Un oiseau merveilleux apporte savoirs agricoles et abondance au village. Ce conte populaire du Peuple Wobé met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 57,
-    nom: "Le voleur de lune (Yacouba)",
-    origine: "Peuple Yacouba",
-    description: "La lune est dérobée; la communauté s'organise pour la récupérer et rétablir l'ordre cosmique. Ce conte populaire du Peuple Yacouba met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 58,
-    nom: "La marmite inépuisable (Yaouré)",
-    origine: "Peuple Yaouré",
-    description: "Une marmite nourricière met à l'épreuve la générosité d'un village. Ce conte populaire du Peuple Yaouré met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 59,
-    nom: "La source guérisseuse (Yobou)",
-    origine: "Peuple Yobou",
-    description: "Une source découverte guérit et institue des rites de protection. Ce conte populaire du Peuple Yobou met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 60,
-    nom: "L'escargot rusé (Zohou)",
-    origine: "Peuple Zohou",
-    description: "L'escargot gagne par la ruse une victoire devant un adversaire plus fort. Ce conte populaire du Peuple Zohou met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 61,
-    nom: "L'araignée rusée (Abbey)",
-    origine: "Peuple Abbey",
-    description: "Une araignée rusée use de ruse pour tromper voisins; finit par apprendre humilité. Ce conte populaire du Peuple Abbey met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 62,
-    nom: "Le crocodile et le pêcheur (Abouré)",
-    origine: "Peuple Abouré",
-    description: "Un pêcheur transgresse un tabu et rencontre un crocodile esprit; il rétablit l'équilibre par respect des ancêtres. Ce conte populaire du Peuple Abouré met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 63,
-    nom: "Le tambour magique (Ahizi)",
-    origine: "Peuple Ahizi",
-    description: "Un tambour protège le village; seuls les initiés savent son chant et ses règles. Ce conte populaire du Peuple Ahizi met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 64,
-    nom: "La fille du masque (Appolo)",
-    origine: "Peuple Appolo",
-    description: "Une jeune fille inspire la création d'un masque qui devient symbole communautaire. Ce conte populaire du Peuple Appolo met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
-  },
-  {
-    id: 65,
-    nom: "Le chasseur initié (Dan)",
-    origine: "Peuple Dan",
-    description: "Un jeune chasseur passe rites et obtient talismans qui le lient à la forêt. Ce conte populaire du Peuple Dan met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://ich.unesco.org"
-  },
-  {
-    id: 66,
-    nom: "L'oiseau d'abondance (Nafana)",
-    origine: "Peuple Nafana",
-    description: "Un oiseau merveilleux apporte savoirs agricoles et abondance au village. Ce conte populaire du Peuple Nafana met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.wobebli.net/contes/contes.htm"
-  },
-  {
-    id: 67,
-    nom: "Le voleur de lune (Koyaka)",
-    origine: "Peuple Koyaka",
-    description: "La lune est dérobée; la communauté s'organise pour la récupérer et rétablir l'ordre cosmique. Ce conte populaire du Peuple Koyaka met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.ultimesgriots.com"
-  },
-  {
-    id: 68,
-    nom: "La marmite inépuisable (Worodougou)",
-    origine: "Peuple Worodougou",
-    description: "Une marmite nourricière met à l'épreuve la générosité d'un village. Ce conte populaire du Peuple Worodougou met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://takamtikou.bnf.fr"
-  },
-  {
-    id: 69,
-    nom: "La source guérisseuse (Gban)",
-    origine: "Peuple Gban",
-    description: "Une source découverte guérit et institue des rites de protection. Ce conte populaire du Peuple Gban met en scène personnages et esprits locaux, incarnant valeurs et règles sociales : respect des ancêtres, solidarité, rapport aux ressources naturelles et rituels de réparation. À travers épreuves et ruses, le récit enseigne la morale communautaire et la place des anciens, des initiés et des chefs dans la résolution des conflits.",
-    source: "https://www.rfi.fr/fr/podcasts/l-afrique-en-conte/"
+    groupe_ethnique: "Kwa (Lagunaire)",
+    sous_groupe: "Abouré (Akan lagunaires, proche des Ébrié)",
+    contes: {
+      titre: "Le serpent de la lagune",
+      conte: "Un serpent-esprit garde l’entrée de la lagune; un pêcheur qui le nourrit respecte l’interdit et reçoit l’abondance, tandis que les cupides échouent.",
+      personnages: ["Pêcheur", "serpent-esprit", "villageois"],
+      morale: "Respecter les génies de l’eau assure la prospérité.",
+      langue_origine: "Abouré",
+      region: "Sud-Est (Lagunes)",
+      occasion: ["Rituels lagunaires", "Veillées"],
+      themes: ["Eaux sacrées", "Interdits", "Prosperité"],
+      images: [],
+      audio: [],
+      video: []
+    },
+    sources: [
+      "https://www.persee.fr/doc/caoum_0373-5834_1991_num_44_176_3411"
+    ]
   }
-]
+];
