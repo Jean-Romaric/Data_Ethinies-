@@ -7,7 +7,7 @@ const dataConteta: typeDataConte[] =
     id: 1,
     groupe_ethnique: "Akan",
     sous_groupe: "Baoulé",
-    contes: {//Normalement il ya plusuir contes donc on peut ajouter cont1, Cont2 ect ...
+    contes: {//Normalement il ya plusr contes donc on peut ajouter cont1, Cont2 ect ...
       titre: "La légende d’Abla Pokou",
       conte: "Reine fuyant l’Ashanti, Pokou sacrifie son fils pour apaiser l’esprit de la rivière et permettre au peuple de traverser. Après le passage, elle dit « Ba-ouli » (« l’enfant est mort »), d’où le nom Baoulé.",
       personnages: ["Abla Pokou", "le peuple baoulé", "les esprits de la rivière"],
