@@ -193,3 +193,4 @@ const dataFestivite: TypeDataFestivite[] = [
   },
 ]
  
+console.log(dataFestivite[0].fete.nom);

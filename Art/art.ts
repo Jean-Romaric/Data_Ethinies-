@@ -2,6 +2,99 @@ import { typeDataArt } from "./typeDataArt";
 
 const dataArt :  typeDataArt [] = [
   {
+    id: 1,
+    groupe_ethnique: " ",
+    sous_groupe: " ",
+    arts: {
+      masques_sculptures: [
+        {
+          nom: " ",
+          description: "",
+          materiaux: [" ", " ", " "],
+          occasion: ["", " ", ""],
+          region: "",
+          images: ["https://ich.unesco.org/en/RL/zaouli-popular-dance-of-the-guro-people-in-cote-d-ivoire-01285"]
+        }
+      ],
+      danses: [
+        {
+          nom: "Zaouli",
+          description: "Danse acrobatique exécutée par un danseur masqué aux pas rapides et précis, accompagnée d’un ensemble de tambours.",
+          signification: "Valorise la cohésion, la beauté et l’adresse du danseur au service de la communauté.",
+          region: "Centre-Ouest",
+          images: "https://ich.unesco.org/en/RL/zaouli-popular-dance-of-the-guro-people-in-cote-d-ivoire-01285"
+        }
+      ],
+      musique_instruments: [
+        {
+          nom: "Ensemble de tambours du Zaouli",
+          description: "Jeu polyrythmique de tambours qui guide et soutient la chorégraphie du danseur.",
+          signification: "Marque les transitions et galvanise le public.",
+          images: ""
+        }
+      ],
+      tissage_textile: [
+        {
+          nom: "Pagne tissé (Gouro)",
+          description: "Tissage en bandes étroites cousues, aux motifs géométriques colorés.",
+          signification: "Vêtement cérémoniel et marqueur identitaire.",
+          images: "https://ich.unesco.org/en/RL/traditional-skills-of-loincloth-weaving-in-cote-d-ivoire-01949"
+        }
+      ],
+      poterie_artisanat: [
+        {
+          nom: "Calebasses décorées",
+          description: "Récipients gravés/peints utilisés au quotidien et lors de fêtes.",
+          signification: "Objets utilitaires et esthétiques.",
+          images: ""
+        }
+      ],
+      orfèvrerie_bijoux: [
+        {
+          nom: "Parures en laiton",
+          description: "Bracelets et pendentifs d’inspiration akan.",
+          signification: "Ornementation festive.",
+          images: ""
+        }
+      ],
+      peinture_corporelle: [
+        {
+          nom: "Pigments rituels",
+          description: "Marquages de danse et de fêtes.",
+          signification: "Protection symbolique et esthétique.",
+          images: ""
+        }
+      ],
+      architecture: [
+        {
+          nom: "Concessions en banco",
+          description: "Maisons en terre crue, toits végétaux.",
+          signification: "Adaptation climatique et sociale.",
+          images: ""
+        }
+      ],
+      arts_oratoires: [
+        {
+          nom: "Louanges au danseur",
+          description: "Chants de griots et acclamations codifiées.",
+          image: ""
+        }
+      ],
+      arts_culinaires: [
+        {
+          nom: "Sauces aux graines",
+          description: "Préparations locales servies lors des réjouissances.",
+          signification: "Partage communautaire.",
+          images: ""
+        }
+      ]
+    },
+    sources: [
+      "https://ich.unesco.org/en/RL/zaouli-popular-dance-of-the-guro-people-in-cote-d-ivoire-01285",
+      "https://ich.unesco.org/en/RL/traditional-skills-of-loincloth-weaving-in-cote-d-ivoire-01949"
+    ]
+  },
+  {
     id: 2,
     groupe_ethnique: "Gouro (Guro)",
     sous_groupe: "Gouro",
