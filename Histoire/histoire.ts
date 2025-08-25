@@ -1,6 +1,6 @@
 import { TypeDataHistoire } from "../Histoire/typeDataHistoire";
 
-const DataHistoire :TypeDataHistoire []  = [
+const dataHistoire :TypeDataHistoire []  = [
   {
     id: 1,
     nom: "Histoire du peuple abé",

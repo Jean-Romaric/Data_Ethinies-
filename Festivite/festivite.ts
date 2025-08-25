@@ -2,7 +2,7 @@
 import { TypeDataFestivite} from "../Festivite/typeDataFestivite" //(fais aussi en anglais)
 const DataFestivite : TypeDataFestivite[] =[
 
-    {
+    {//Normalement il ya plusuir festivitées donc on peut ajouter fest1, fest2 ect ...
         id: 1,
         nom: "Fêtes traditionnelles Abbey",
         imageUrl: "url_abe.jpg",

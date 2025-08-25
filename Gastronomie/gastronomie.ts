@@ -1,6 +1,6 @@
 import { TypeDataGastronomie } from "./typeDataGastronomie"
 
-const gastronomie : TypeDataGastronomie [] =[
+const dataGastronomie : TypeDataGastronomie [] =[
   {
     id: 1,
     nom: "Foutou (igname/banane) & sauce graine",
